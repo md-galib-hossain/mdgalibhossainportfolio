@@ -30,13 +30,16 @@ export default function Skills() {
             })}
           </Row>
           {resume && (
-            <a href={resume}>
+            <a
+              href="Md Galib Hossain Resume.pdf"
+              download="Md Galib Hossain Resume.pdf"
+            >
               <Button
                 size="lg"
                 variant={theme === "light" ? "outline-dark" : "outline-light"}
                 className="mt-5"
               >
-                R&eacute;sum&eacute;
+                Resume
               </Button>
             </a>
           )}
