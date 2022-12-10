@@ -22,11 +22,11 @@ import Logo from "./images/logo.svg";
 import project1 from "./images/project1.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import bannerLight from "./images/hero-light.jpg";
+import bannerDark from "./images/hero-dark.jpg";
 // If you change the import names above then you need to change the export names below
-export { HeroLight as Light };
-export { HeroDark as Dark };
+export { bannerLight as Light };
+export { bannerDark as Dark };
 
 /* START HERE
  **************************************************************
